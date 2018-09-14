@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	margin:0;
+	font-family: quicksand, sans-serif;
+	
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 50px;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+	padding-top: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-transform: uppercase;
+	
+}
+
+li a:hover:not(.active) {
+    color: #f79a3b;
+}
+
+.active {
+    background-color: #fff;
+    color: #f79a3b;
+}
+div.logo{
+	padding-left: 150px;
+	padding-top: 10px;
+	border-bottom: 1px #c4c4c4 solid;
+	float: left;
+	
+}
+.content{
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 100px;
+}
+.parallax {
+	
+    /* The image used */
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bk.jpg);
+	
+    /* Full height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+	float: right;
+	padding-right: 150px;
+}
+.spacer
+{
+	height: 65px;
+}
+</style>
+</head>
+<body>
+<div class="logo"><img src="https://mangan.ph/images/mangan-logo.png"  width="300" height="50"></div>
+<div class="menu">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+<div class="spacer"></div>
+<div class="parallax"></div>
+<table class="content">
+	<tr>
+		<th><a href="https://mcdelivery.com.ph/"><img src="mcdo.jpg" height="200"></a>
+	</th>
+		<th><a href="https://mcdelivery.com.ph/"><img src="bee.jpg" height="200"></a></th>
+		<th><a href="https://mcdelivery.com.ph/"><img src="kfc.jpg" height="220"width="200"></a></th>
+	</tr>
+	<tr>
+		<th  class="info">Angeles City</th>
+		<th>Angeles City</th>
+		<th>Angeles City</th>
+	</tr>
+	<tr>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+	</tr>
+	<tr>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+		<th><img src="https://mangan.ph/images/clark.jpg" height="200"><br /> Angeles City</th>
+	</tr>
+</table>
+
+
+
+</body>
+</html>
