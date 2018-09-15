@@ -124,7 +124,7 @@
 		color: #fff;
 		font-size: 70px;
 	}
-	.pizza{
+	.margin {
 		margin-right: auto;
 		margin-left: auto;
 		padding-top: 50px;
@@ -139,6 +139,35 @@
 		padding: 10px;
 
 	}
+
+.sidenav {
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 190px;
+    right: 10px;
+    background: #fff;
+    overflow-x: hidden;
+    padding: 8px 0;
+    opacity: 0.5;
+}
+
+.sidenav a {
+    padding: 0 9px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+	opacity: 1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
 </style>
 </head>
@@ -168,262 +197,277 @@
 	<h5>The easiest way to your favourite food</h5>
 	</center>
 	</div>
-	<table>
+
+<div class="sidenav">
+	<a href="#burger"><img src="hamburger.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#pizza"><img src="pizza.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#shawarma"><img src="wrap.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#contact"><img src="fries.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#contact"><img src="pasta.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#contact"><img src="coffee.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+	<a href="#contact"><img src="frappe.png" height="50" width="50" style="border-radius: 50%; background-color: #F99704;"></a>
+</div>
+		
+		<table>
+			<section id="burger">
 		<div style="margin-top: 20px;">
 			<br />
 				<center><span style="font-size: 50px; margin-top: 50px; font-family: helvetica"><strong>BURGER</strong></span></center>
 			</div>
-</table>
 
-		<table class="content">
-	<tr>
-		
-		<th><img src="b1.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Minute Burger</span><br />
-			<span><br /></span>
-			<span>
-				Address: Sto Rosario Street,<br>
-				Angeles City 2009<br />
-				Contact No.: 0922 861 7182<br />
-				<a href="https://www.facebook.com/mbbacifoods/" style="color: #000" target="_blank">Facebook Page: @mbbacifoods</a>
-			</span>
-		</th>
+		</table>
+				<table class="content">
+			<tr>
+				
+				<th><img src="b1.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Minute Burger</span><br />
+					<span><br /></span>
+					<span>
+						Address: Sto Rosario Street,<br>
+						Angeles City 2009<br />
+						Contact No.: 0922 861 7182<br />
+						<a href="https://www.facebook.com/mbbacifoods/" style="color: #000" target="_blank">Facebook Page: @mbbacifoods</a>
+					</span>
+				</th>
 
-		<th><img src="b2.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Barneys Burger Carmelite</span><br />
-			<span><br /></span>
-			<span>
-				Address: 408 Business Center Sto. Rosario St. <br>
-				Sto.Domingo (besides Metro Bank)<br>
-                Angeles City 2009<br>
-				Contact No.: (045) 304 2155<br>
-				<a href="https://www.facebook.com/Barneys-Burger-Carmelite-574408892714717/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: Barneys Burger Carmalite</a>
-			</span>
-		</th>
+				<th><img src="b2.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Barneys Burger Carmelite</span><br />
+					<span><br /></span>
+					<span>
+						Address: 408 Business Center Sto. Rosario St. <br>
+						Sto.Domingo (besides Metro Bank)<br>
+		                Angeles City 2009<br>
+						Contact No.: (045) 304 2155<br>
+						<a href="https://www.facebook.com/Barneys-Burger-Carmelite-574408892714717/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: Barneys Burger Carmalite</a>
+					</span>
+				</th>
 
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		
-		<th><img src="b3.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">The Messy Burger</span><br />
-			<span><br /></span>
-				Address: Kucina Ni Maria, Zeppelin St.,<br> 
-				Hensonville Rd., Malabanias Angeles City <br>
-				Contact No.: 0917 625 5809<br>
-				<a href="https://www.facebook.com/TheMessyBurger/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: @TheMessyBurger</a><a href="" style="color: #000" target="_blank">
-			</span>
-		</th>
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				
+				<th><img src="b3.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">The Messy Burger</span><br />
+					<span><br /></span>
+						Address: Kucina Ni Maria, Zeppelin St.,<br> 
+						Hensonville Rd., Malabanias Angeles City <br>
+						Contact No.: 0917 625 5809<br>
+						<a href="https://www.facebook.com/TheMessyBurger/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: @TheMessyBurger</a>
+					</span>
+				</th>
 
-		<th><img src="b4.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Francis D’s Burgers</span><br />
-			<span><br /></span>
-			<span>
-				Address: Ground floor, <br>
-				SM City CLARK Angeles City <br>
-				Contact No.: 0920 920 7210<br>
-				<a href="https://www.facebook.com/FrancisDsBurgers/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: @FrancisDsBurgers</a>
-			</span>
-		</th>
+				<th><img src="b4.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Francis D’s Burgers</span><br />
+					<span><br /></span>
+					<span>
+						Address: Ground floor, <br>
+						SM City CLARK Angeles City <br>
+						Contact No.: 0920 920 7210<br>
+						<a href="https://www.facebook.com/FrancisDsBurgers/?ref=br_rs" style="color: #000" target="_blank">Facebook Page: @FrancisDsBurgers</a>
+					</span>
+				</th>
 
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		<th><img src="b5.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Takeout Burgers</span><br />
-			<span><br /></span>
-				<span>
-				Address: Nepo Mart Angeles City 2009<br>
-				Contact No.: 0936 800 8862<br>
-				<a href="https://www.facebook.com/takeoutburgers/" style="color: #000" target="_blank">Facebook Page: @takeoutburgers</a>
-			</span>
-		</th>
-	
-	</tr>
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				<th><img src="b5.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Takeout Burgers</span><br />
+					<span><br /></span>
+						<span>
+						Address: Nepo Mart Angeles City 2009<br>
+						Contact No.: 0936 800 8862<br>
+						<a href="https://www.facebook.com/takeoutburgers/" style="color: #000" target="_blank">Facebook Page: @takeoutburgers</a>
+					</span>
+				</th>
+			
+			</tr>
 
-		</table>	
+				</table>	
+			</section>
+
 
 <!---This is the table of pizza-->
-<div class="spam">
-
-<table>
-		<div style="margin-top: 20px;">
-			<br />
-				<center><span style="font-size: 50px; margin-top: 50px; font-family: helvetica"><strong>PIZZA</strong></span></center>
-			</div>
-</table>
-		<table class="pizza">
-		
-	<tr>
-		
-		<th><img src="p1.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Didi’s Pizza</span><br />
-			<span><br /></span>
-			<span>
-				Address: MacArthur Hwy Angeles City 2009<br>
-				Contact No.: (045) 892 1184<br>
-				<a href="https://www.facebook.com/mbbacifoods/" style="color: #000" target="_blank">Facebook Page: @didispizza</a>
-			</span>
-		</th>
-
-		<th><img src="p2.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">ZARF Pizzeria</span><br />
-			<span><br /></span>
-			<span>
-				Address: 20-23 Richtofen St,. Hensonville,<br>
-				2009 Malabañas Angeles City 2009<br>
-				Contact No.: 0929 779 6000<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @zarfpizzeria</a>
-			</span>
-		</th>
-
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		
-		<th><img src="p3.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Crusty Pizza</span><br />
-			<span><br /></span>
-			<spam>
-				Address: Rizal ext. cutcut<br> 
-				Angeles City 2024<br>
-				Contact No.: 0917 896 2400<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: Crusty Pizza</a>
-			</span>
-		</th>
-
-		<th><img src="p4.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Paizano’s Pizzeria</span><br />
-			<span><br /></span>
-			<span>
-				Address:  4180-G Zepellin Street<br>
-				Angeles City 2009<br>
-				Contact No.: +63 918 378 7133<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @PaizanosPizzeria</a>
-			</span>
-		</th>
-
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		<th><img src="p5.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Greenwich</span><br />
-			<span><br /></span>
-				<span>
-				Address: G/F Nepo Mall Dona Teressa Ave.<br>
-				cor., St. Joseph St. Angeles 2009<br>
-				Contact No.: (045) 887 1000<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @greenwichnepomallangeles</a>
-			</span>
-		</th>
-	</tr>
+		<div class="spam">
+			<section id="pizza">
+		<table>
+				<div style="margin-top: 20px;">
+					<br />
+						<center><span style="font-size: 50px; margin-top: 50px; font-family: helvetica"><strong>PIZZA</strong></span></center>
+					</div>
 		</table>
-		</div>
+				<table class="margin">
+				
+			<tr>
+				
+				<th><img src="p1.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Didi’s Pizza</span><br />
+					<span><br /></span>
+					<span>
+						Address: MacArthur Hwy Angeles City 2009<br>
+						Contact No.: (045) 892 1184<br>
+						<a href="https://www.facebook.com/mbbacifoods/" style="color: #000" target="_blank">Facebook Page: @didispizza</a>
+					</span>
+				</th>
 
+				<th><img src="p2.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">ZARF Pizzeria</span><br />
+					<span><br /></span>
+					<span>
+						Address: 20-23 Richtofen St,. Hensonville,<br>
+						2009 Malabañas Angeles City 2009<br>
+						Contact No.: 0929 779 6000<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @zarfpizzeria</a>
+					</span>
+				</th>
+
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				
+				<th><img src="p3.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Crusty Pizza</span><br />
+					<span><br /></span>
+					<span>
+						Address: Rizal ext. cutcut<br> 
+						Angeles City 2024<br>
+						Contact No.: 0917 896 2400<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: Crusty Pizza</a>
+					</span>
+				</th>
+
+				<th><img src="p4.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Paizano’s Pizzeria</span><br />
+					<span><br /></span>
+					<span>
+						Address:  4180-G Zepellin Street<br>
+						Angeles City 2009<br>
+						Contact No.: +63 918 378 7133<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @PaizanosPizzeria</a>
+					</span>
+				</th>
+
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				<th><img src="p5.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Greenwich</span><br />
+					<span><br /></span>
+						<span>
+						Address: G/F Nepo Mall Dona Teressa Ave.<br>
+						cor., St. Joseph St. Angeles 2009<br>
+						Contact No.: (045) 887 1000<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @greenwichnepomallangeles</a>
+					</span>
+				</th>
+			</tr>
+				</table>
+				</div>
+			</section>
 
 <!--This is the table of shawarma's-->
+			<section id="shawarma">
+		<table>
+				<div style="margin-top: 20px;">
+					<br />
+						<center><span style="font-size: 50px; margin-top: 50px; font-family: helvetica"><strong>SHAWARMA</strong></span></center>
+				</div>
+		</table>
+		<table class="margin">
+				
+			<tr>
+				
+				<th><img src="s1.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Shawarma Dristor</span><br />
+					<span><br /></span>
+					<span>
+						Address: Real st. corner Raymond st.<br>
+						Angeles City 2009<br>
+						Contact No.: 0917 579 8787<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: Shawarma Dristor Angeles</a>
+					</span>
+				</th>
+						<span><br /></span>
+				<th><img src="s2.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">ZShawarma Shack</span><br />
+					<span><br /></span>
+					<span>
+						Address:  IBG Plaza, Mon Tang Ave., <br>
+						Balibago Angeles City 2009<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @shawarmashack2018</a>
+					</span>
+				</th>
 
-<table>
-		<div style="margin-top: 20px;">
-			<br />
-				<center><span style="font-size: 50px; margin-top: 50px; font-family: helvetica"><strong>SHAWARMA</strong></span></center>
-		</div>
-</table>
-<table class="pizza">
-		
-	<tr>
-		
-		<th><img src="s1.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Shawarma Dristor</span><br />
-			<span><br /></span>
-			<span>
-				Address: Real st. corner Raymond st.<br>
-				Angeles City 2009<br>
-				Contact No.: 0917 579 8787<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: Shawarma Dristor Angeles</a>
-			</span>
-		</th>
-				<span><br /></span>
-		<th><img src="s2.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">ZShawarma Shack</span><br />
-			<span><br /></span>
-			<span>
-				Address:  IBG Plaza, Mon Tang Ave., <br>
-				Balibago Angeles City 2009<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @shawarmashack2018</a>
-			</span>
-		</th>
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				
+				<th><img src="s3.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Soldiers’ Avenue Shawarma</span><br />
+					<span><br /></span>
+					<span>>
+						Address: Angeles City 2009<br>
+						Contact No.: 0926 945 0569<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @soldiersavenueshawarma</a>
+					</span>
+				</th>
 
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		
-		<th><img src="s3.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Soldiers’ Avenue Shawarma</span><br />
-			<span><br /></span>
-			<spam>
-				Address: Angeles City 2009<br>
-				Contact No.: 0926 945 0569<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @soldiersavenueshawarma</a>
-			</span>
-		</th>
+				<th><img src="s4.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Venshan Shawarma</span><br />
+					<span><br /></span>
+					<span>
+						Address: walking street, fields avenue<br>
+						Balibago Angeles City 2009<br>
+						Contact No.: 0928 209 1089<br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: @venshan.shawarma</a>
+					</span>
+				</th>
 
-		<th><img src="s4.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Venshan Shawarma</span><br />
-			<span><br /></span>
-			<span>
-				Address: walking street, fields avenue<br>
-				Balibago Angeles City 2009<br>
-				Contact No.: 0928 209 1089<br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: @venshan.shawarma</a>
-			</span>
-		</th>
-
-	</tr>
-	<tr height=" 20px"></tr>
-	<tr>
-		<th><img src="s5.jpg" height="200" width="220"></a></th>
-		
-		<th>
-			<span style="border: 2px solid #000; font-size: 18px;" class="pad">Shawarma Mania</span><br />
-			<span><br /></span>
-			<span>
-				Address: #254 Mc Arthur Highway,<br>
-				Balibago, Angeles City 2009<br>
-				Contact No.: 0912 345 6789><br>
-				<a href="" style="color: #000" target="_blank">Facebook Page: Shawarma Mania</a>
-			</span>
-		</th>
-	</tr>
-</table>
+			</tr>
+			<tr height=" 20px"></tr>
+			<tr>
+				<th><img src="s5.jpg" height="200" width="220"></a></th>
+				
+				<th>
+					<span style="border: 2px solid #000; font-size: 18px;" class="pad">Shawarma Mania</span><br />
+					<span><br /></span>
+					<span>
+						Address: #254 Mc Arthur Highway,<br>
+						Balibago, Angeles City 2009<br>
+						Contact No.: 0912 345 6789><br>
+						<a href="" style="color: #000" target="_blank">Facebook Page: Shawarma Mania</a>
+					</span>
+				</th>
+			</tr>
+		</table>
+	</section>
 
 
 
